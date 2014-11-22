@@ -25,16 +25,10 @@ class Seo {
 		switch( $pg )
 		{				
 			case '404.php':
-				$arr['desc'] = 'Página não encontrada ' . self::$desc_default;
-				$arr['title'] = 'Erro 404 - Página não encontrada' . self::$title;
+				$arr['desc'] = 'Bla bla ' . self::$desc_default;
+				$arr['title'] = 'Bla bla - ' . self::$title;
 				$arr['canonical'] = self::getUrl() . '/interna.html';
 				break;
-
-			case 'contato.php':
-			$arr['desc'] = 'Página de contato ' . self::$desc_default;
-			$arr['title'] = 'Entre em contato conosco - ' . self::$title;
-			$arr['canonical'] = self::getUrl() . '/contato.php';
-			break;
 				
 			case 'home':
 				$arr['desc'] = 'Bla bla ' . self::$desc_default;
